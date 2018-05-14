@@ -1,18 +1,44 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+.bg-color-name-title
+{
+  background-color: #800000;
+}
 header
 {
   margin:0;  
 }
-
+.bck_gn_color
+{
+  background-color: rgb(128, 0, 0);
+}
 .logo{
-    background: url("../images/Bob_Logo.jpg"); 
+    background: url("../images/bob.png"); 
     background-position:left;
     background-repeat:no-repeat;
     background-size:cover;
-    min-height:400px;
-    max-width:1px;
+    min-height:300px;
+    max-width:300px;
     transition:all .5s ease-in-out;
     -moz-transition:all .5s ease-in-out;
     -webkit-transition:all .5s ease-in-out;
-}
+  }
+  .name-font-text{
+    font-family: cursive;
+    font-style: italic;
+    color: rgb(255,215,0);
+    font-size: 55px;
+    font-weight: 150;
+    margin-top: 20px;
+    margin-left: 50px;
+    }
+    .title-font-text{
+    font-family: cursive;
+    font-style: italic;
+    color: rgb(255,215,0);
+     font-size:46px;
+    font-weight: 100;
+    margin-bottom:150px;
+    margin-left: 50px;
+    margin-top: 40px;
+    }
